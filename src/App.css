@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-box{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.li{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.dbtn{
+  background-color: red !important;
+  color: white;
+  font-weight: bold;
+
+}
+.dbtnone{
+  background-color: rgb(255, 77, 77) !important;
+  color: black;
+  height: 25px;
+  padding: 0% !important;
+
+
+}
+.input0{
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px grey;
+}
+.input0:hover{
+  box-shadow: 2px 2px 2px springgreen;
+}
+.container{
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(173, 160, 160);
+  overflow-x: scroll;
+  box-shadow: 6px 6px 6px grey;
+  scrollbar-color: rebeccapurple rgb(255, 0, 234); 
+  scrollbar-width: thin; 
+  color: rgb(255, 0, 0);
+  
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+button{
+  background-color: black !important;
+  border: red;
+  color: white;
+  margin: 5px;
+}
